@@ -1,0 +1,23 @@
+string public name = "MohcineDev";
+
+//string cost more gas than primitive types ex : bool, int
+
+uint8 = 15 // 0 - 256 // 2^8 = 256
+
+public = available for all
+private = not available for the inherited contract
+internal = available for the inherited contract
+external = available only outside the contract - available for a user 
+
+block.timestamp // global variable
+
+variables inside the contract called state variable
+variables inside the contract function called local variable
+
+function with pure modifier is a function that does not use the state variables
+function example (...) public pure {...}
+
+function with view modifier is a function that does not change the state variables but it uses it ex:
+function example (...) public view {...}
+
+
